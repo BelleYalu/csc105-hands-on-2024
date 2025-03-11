@@ -1,0 +1,44 @@
+.Cal{
+  text-align: center;
+}
+.Box{
+  border: 1px solid black;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+
+
+}
+body{
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.botton{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  gap: 1rem;
+
+}
+.botton > button {
+  flex: 1 0 auto;
+  width: 100%;
+}
+button{
+  background-color: aqua;
+}
+.allbox{
+  
+}
